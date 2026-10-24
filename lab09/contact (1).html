@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="skills.html">Skills</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Contact</h1>
+
+    <div class="row1">
+        <div class="contactaddress">
+            <p>Name: Luke Schickler</p>
+            <p>Address: 243 Windemere rd</p>
+        </div>
+
+        <div class="contactlinks">
+            <p><a href="mailto:lfschick@syr.edu">Email</a></p>
+            <p>
+                <a href="https://www.linkedin.com/in/luke-schickler/" target="_blank">My LinkedIn Profile
+                    <img src="../images/sized.logo.png" alt="LinkedIn Logo">
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <div class="row2">
+        <div class="contactform">
+            <form action="https://formspree.io/f/mwlkgwvv" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <label for="status">Select Work Status:</label><br>
+                <select id="status" name="status">
+                    <option value="Student">Student</option>
+                    <option value="Employed">Employed</option>
+                    <option value="Unemployed">Unemployed</option>
+                </select><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="contactmap">
+            <iframe title="Map of Syracuse University"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-76.1530%2C43.0330%2C-76.1250%2C43.0470&amp;layer=mapnik">
+            </iframe>
+        </div>
+    </div>
+</body>
+
+</html>
