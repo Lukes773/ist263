@@ -1,0 +1,42 @@
+/* Lab 07 style document colors
+   Body background:      #FFFFFF
+   Text:                 #222222
+   Link:                 #D44500
+   Heading:              #000E54
+   Nav background:       #000E54
+   Nav highlight (hover):#F76900
+   Nav link:             #FFFFFF
+*/
+
+body {
+  background-color: #FFFFFF;
+  color: #222222;
+}
+
+a {
+  color: #D44500;
+}
+
+h1, h2, h3 {
+  color: #000E54;
+}
+
+nav {
+  background-color: #000E54;
+  color: #FFFFFF; /* keeps the | separators visible */
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #FFFFFF;
+}
+
+nav a:hover {
+  background-color: #F76900;
+}
+
+/* Skills table borders (moved from inline style) */
+table, th, td {
+  border: 1px solid black;
+}
